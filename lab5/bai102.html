@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" class="wrapper">
+            <div class="form-group">
+                Ho va ten: <br>
+                <input type="text" @tabindex ="1" class="form-control">
+            </div>
+
+            <fieldset class="form-control">
+                <legend>Gioi tinh: </legend>
+                <label for=""><input type="radio">Nam</label>
+                <label for=""><input type="radio">Nu</label>
+            </fieldset>
+
+            <div class="form-group">
+                Ngay Sinh: <br>
+                <input type="date" class="form-control" name="" id="">
+            </div>
+            <div class="form-group">
+                Diem: <br>
+                <input type="number" class="form-control">
+            </div>
+            
+            <div class="form-group">
+                Nghe nghiep: <br>
+                <input type="jobs" class="form-control">
+                <datalist id="jobs">
+                    <option value="Nong"></option>
+                    <option value="THAY"></option>
+                    <option value="TAXI"></option>
+                    <option value="PHI CONG"></option>
+                </datalist>
+            </div>
+
+            <div class="form-group">
+                <fieldset>
+                    <legend>So thich</legend>
+                    <label for=""><input type="checkbox">The thao</label>
+                    <label for=""><input type="checkbox">Du lich</label>
+                    <label for=""><input type="checkbox">Am nhac</label>
+                    <label for=""><input type="checkbox">Am thuc</label>
+
+                </fieldset>
+            </div>
+            <div class="form-group">
+                Ghi chu: <br>
+                <textarea name="" id="" cols="30"  tabindex="1" rows="5"></textarea>
+            </div>
+            <hr>
+            <button class="form-button" tabindex="3">Dang ky</button>
+            <button class="form-button" tabindex="4">Nhap lai</button>
+
+        </form>
+    </div>
+</body>
+</html>
